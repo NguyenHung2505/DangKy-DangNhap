@@ -38,8 +38,13 @@ public class QuanLySanPham implements PTQuanLy<SanPham>{
     }
 
     @Override
-    public void xoaSanPham(String maSP) {
-        int indexOf = xemChiTietSanPham(maSP);
+    public void xoaSanPham(String maSP ) {
+        int indexOf=xemChiTietSanPham(maSP);
+        if(indexOf == -1){
+            System.out.println("khooong cooo !");
+        } else{
+            sanPhamList.remove(indexOf);
+        }
 
     }
 
@@ -50,4 +55,5 @@ public class QuanLySanPham implements PTQuanLy<SanPham>{
         }
 
     }
+
 }
