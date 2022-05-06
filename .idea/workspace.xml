@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d17dd205-a15e-43a2-96ee-6c8cba46b755" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileTong/FileSanPhamcsv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileTong/FileUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OnTap3/SP/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnTap3/SP/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OnTap3/SP/QuanLySanPham.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnTap3/SP/QuanLySanPham.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OnTap3/SP/thu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OnTap3/TaiKhoan/QuanLyUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnTap3/TaiKhoan/QuanLyUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OnTap3/TaiKhoan/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnTap3/TaiKhoan/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SP/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SP/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SP/QuanLySanPham.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SP/QuanLySanPham.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SP/thu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TaiKhoan/QuanLyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaiKhoan/QuanLyUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TaiKhoan/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaiKhoan/User.java" afterDir="false" />
-    </list>
+    <list default="true" id="d17dd205-a15e-43a2-96ee-6c8cba46b755" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,7 +129,7 @@
       <workItem from="1651824343356" duration="96000" />
       <workItem from="1651825371940" duration="965000" />
       <workItem from="1651826386499" duration="82000" />
-      <workItem from="1651826781345" duration="4085000" />
+      <workItem from="1651826781345" duration="4440000" />
     </task>
     <servers />
   </component>
