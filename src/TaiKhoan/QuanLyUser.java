@@ -1,14 +1,27 @@
 package TaiKhoan;
 
-import SP.PTQuanLy;
-import SP.SanPham;
+import FileTong.FileUser;
 
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class QuanLyUser {
-    List<User> userList = new ArrayList<>();
+    FileUser fileUser = new FileUser();
+    private List<User> userList = new ArrayList<>();
+    private List<QuanLyUser>quanLyUserList = new ArrayList<>();
 
+    public QuanLyUser() throws FileNotFoundException {
+        userList = fileUser.readFileUser(userList);
+    }
+
+    public List<User> getUserList() {
+        return userList;
+    }
+
+    public void setUserList(List<User> userList) {
+        this.userList = userList;
+    }
 
     public void themTaiKhoan(User user) {
         userList.add(user);
@@ -38,18 +51,24 @@ public class QuanLyUser {
 //        }
 //    }
 
-    public void xoa(String userName) {
-        userList.remove(userName);
-
-    }
-
-    public String ghiFile() {
-        String str = "";
-        for (User user: userList) {
-            str +="userName:   " + user.getUserName() + " passworl:   "+ user.getPassWorl() + "\n";
+    public void xoaUser(String userName ,String passWorl){
+        int intdexOff = viTri(userName,passWorl);
+        if(intdexOff==-1){
+            System.out.println("khong co");
+        }else  {
+            userList.remove(intdexOff);
         }
-        return str;
     }
+
+
+
+//    public String ghiFile() {
+//        String str = "";
+//        for (User user: userList) {
+//            str += user.getUserName() + ","+ user.getPassWorl() + "\n";
+//        }
+//        return str;
+//    }
 
 
 }

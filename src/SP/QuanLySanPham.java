@@ -1,10 +1,17 @@
 package SP;
 
+import TaiKhoan.User;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class QuanLySanPham implements PTQuanLy<SanPham>{
-    List<SanPham>sanPhamList = new ArrayList<>();
+   private List<SanPham>sanPhamList = new ArrayList<>();
+   private List<QuanLySanPham>quanLySanPhamList = new ArrayList<>();
+
+    public List<SanPham> getSanPhamList() {
+        return sanPhamList;
+    }
 
     @Override
     public void themSanPham(SanPham sanPham) {
