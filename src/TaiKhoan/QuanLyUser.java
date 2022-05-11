@@ -9,7 +9,7 @@ import java.util.List;
 public class QuanLyUser {
     FileUser fileUser = new FileUser();
     private List<User> userList = new ArrayList<>();
-    private List<QuanLyUser>quanLyUserList = new ArrayList<>();
+    private List<QuanLyUser> quanLyUserList = new ArrayList<>();
 
     public QuanLyUser() throws FileNotFoundException {
         userList = fileUser.readFileUser(userList);
@@ -51,15 +51,14 @@ public class QuanLyUser {
 //        }
 //    }
 
-    public void xoaUser(String userName ,String passWorl){
-        int intdexOff = viTri(userName,passWorl);
-        if(intdexOff==-1){
+    public void xoaUser(String userName, String passWorl) {
+        int intdexOff = viTri(userName, passWorl);
+        if (intdexOff == -1) {
             System.out.println("khong co");
-        }else  {
+        } else {
             userList.remove(intdexOff);
         }
     }
-
 
 
 //    public String ghiFile() {
