@@ -3,17 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="d17dd205-a15e-43a2-96ee-6c8cba46b755" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OnTap3/FileTong/FileSanPhamcsv.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnTap3/FileTong/FileSanPhamcsv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OnTap3/FileTong/FileUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnTap3/FileTong/FileUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OnTap3/FileTong/SanPham.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnTap3/FileTong/SanPham.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OnTap3/FileTong/User.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnTap3/FileTong/User.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OnTap3/SP/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnTap3/SP/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OnTap3/SP/PTQuanLy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnTap3/SP/PTQuanLy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OnTap3/SP/QuanLySanPham.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnTap3/SP/QuanLySanPham.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OnTap3/TaiKhoan/QuanLyUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnTap3/TaiKhoan/QuanLyUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileTong/FileSanPhamcsv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileTong/FileSanPhamcsv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileTong/FileUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileTong/FileUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FileTong/SanPham.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileTong/SanPham.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FileTong/User.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileTong/User.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SP/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SP/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SP/PTQuanLy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SP/PTQuanLy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SP/QuanLySanPham.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SP/QuanLySanPham.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thu/thu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thu/thu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TaiKhoan/QuanLyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaiKhoan/QuanLyUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +152,7 @@
       <workItem from="1652156933579" duration="304000" />
       <workItem from="1652157269163" duration="1610000" />
       <workItem from="1652165483803" duration="7956000" />
-      <workItem from="1652173655685" duration="12621000" />
+      <workItem from="1652173655685" duration="20103000" />
     </task>
     <servers />
   </component>

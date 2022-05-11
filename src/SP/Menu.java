@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class Menu {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
 
         QuanLySanPham quanLySanPham = new QuanLySanPham();
         QuanLyUser quanLyUser = new QuanLyUser();
@@ -21,17 +21,18 @@ public class Menu {
         int luaChon1;
 
         do {
-            System.out.println("---MENU---");
+            System.out.println("---MENU TAI KHOAN---");
             System.out.println("Lua chon chuc nang");
             System.out.println(
-                    "(1.) ===  Dang nhap === \n"
-                            + "(2.) ---  Dang ky ---\n"
-                            + "(3.) --- Xoa tai khoan ---\n"
-                            + "(0.) --- Thoat chuong trinh ---"
+                              "[1]. Dang nhap   \n"
+                            + "[2]. Dang ky   \n"
+                            + "[3]. Xoa tai khoan \n"
+                            + "[0]. Thoat chuong trinh "
             );
             luaChon = sc.nextInt();
             sc.nextLine();
             if (luaChon == 2) {
+                System.out.println("Ban da chon Phim [2]");
                 System.out.println("Dang ky :");
                 System.out.println("Nhap userName :");
                 String userName = sc.nextLine();
@@ -42,6 +43,7 @@ public class Menu {
                 fileUser.writeFileUser(quanLyUser.getUserList());
 
             } else if (luaChon == 1) {
+                System.out.println("Ban da chon Phim [1]");
                 System.out.println("Nhap userName :");
                 String userName = sc.nextLine();
                 System.out.println("Nhap password :");
@@ -51,15 +53,15 @@ public class Menu {
 
                     do {
 
-                        System.out.println("---MENU---");
+                        System.out.println("---MENU QUAN LY SAN PHAM---");
                         System.out.println("Lua chon chuc nang");
                         System.out.println(
-                                " (1.) Them san pham \n"
-                                        + "(2.) Hien thi cac san pham hien co :\n"
-                                        + "(3.) Tim san pham \n"
-                                        + "(4.) Thay the san pham moi \n"
-                                        + "(5.) Xoa san pham \n"
-                                        + "(0.) Quay lai menu dang nhap .   "
+                                " [1]. Them san pham \n"
+                                        + "[2]. Hien thi cac san pham hien co :\n"
+                                        + "[3]. Tim san pham \n"
+                                        + "[4]. Thay the san pham moi \n"
+                                        + "[5]. Xoa san pham \n"
+                                        + "[0]. Quay lai MENU DANG NHAP .   "
 
                         );
                         luaChon1 = sc.nextInt();
@@ -80,12 +82,12 @@ public class Menu {
                             fileSanPhamcsv.wirteFileSanPham(quanLySanPham.getSanPhamList());
 
                         } else if (luaChon1 == 2) {
-                            System.out.println("cac san pham hien co :");
+                            System.out.println("Cac san pham hien co :");
                             quanLySanPham.toanBoSanPham();
 
                             System.out.println();
                         } else if (luaChon1 == 3) {
-                            System.out.println("nhap maSP de xem thong tin san pham");
+                            System.out.println("Nhap maSP de xem thong tin san pham");
                             String maSP1 = sc.nextLine();
                             quanLySanPham.xemChiTietSanPham(maSP1);
                         } else if (luaChon1 == 4) {
@@ -118,12 +120,15 @@ public class Menu {
 
                     } while (luaChon1 != 0);
 
-                } else System.out.println("Tai khoan nay chua co");
-                System.out.println("Moi ban chon phim (2) de dang ky !");
+                } else System.out.println("====Tai khoan nay chua co====");
+                System.out.println("-----------------------------------------");
+                System.out.println("====Moi ban chon phim [2] de dang ky !=== ");
+                System.out.println("=========================================");
             } else if (luaChon == 3) {
-                System.out.println("Nhap userName :");
+                System.out.println("Ban da chon Phim [3]");
+                System.out.println("Nhap userName muon xoa :");
                 String userName3 = sc.nextLine();
-                System.out.println("Nhap passWorl :");
+                System.out.println("Nhap passWord de xac nhan :");
                 String passWorl3 = sc.nextLine();
                 quanLyUser.xoaUser(userName3, passWorl3);
                 fileUser.writeFileUser(quanLyUser.getUserList());

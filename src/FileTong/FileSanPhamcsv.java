@@ -14,25 +14,30 @@ public class FileSanPhamcsv {
     public void wirteFileSanPham(List<SanPham> sanPhamList) throws IOException {
         FileWriter fw2 = new FileWriter("D:\\Oppmodum2\\OnTap3\\src\\FileTong\\SanPham.csv");
         BufferedWriter bw2 = new BufferedWriter(fw2);
-        String str2 = "";
+        String str2 = "TenSP , MaSP , GiaSP , HSD \n";
         for (SanPham sanPham : sanPhamList) {
             str2 += sanPham.getTenSP() + "," + sanPham.getMaSP() + "," + sanPham.getGiaSP() + "," + sanPham.getHSD() + "\n";
         }
         bw2.write(str2);
         bw2.close();
+        fw2.close();
 
     }
 
 
 //    dooc file
 
-    public List<SanPham> readFileSanPham(List<SanPham> sanPhamList) throws IOException {
+    public List<SanPham> readFileSanPham(List<SanPham> sanPhamList) throws Exception {
         FileReader fr = new FileReader("D:\\Oppmodum2\\OnTap3\\src\\FileTong\\SanPham.csv");
-        Scanner sc = new Scanner(fr);
-        while (sc.hasNext()) {
-            String line = sc.nextLine();
-            String[] arr = line.split(",");
-            sanPhamList.add(new SanPham(arr[0], arr[1], arr[2], arr[3]));
+         Scanner sc = new Scanner(fr);
+        if(sc.nextLine() != null) {
+            while (sc.hasNext()) {
+                String line = sc.nextLine();
+                String[] arr = line.split(",");
+                sanPhamList.add(new SanPham(arr[0], arr[1], arr[2], arr[3]));
+            }
+        }else {
+            throw new Exception();
         }
         sc.close();
         return sanPhamList;

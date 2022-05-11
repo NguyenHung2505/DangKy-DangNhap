@@ -15,7 +15,7 @@ public class QuanLySanPham implements PTQuanLy<SanPham> {
         return sanPhamList;
     }
 
-    public QuanLySanPham() throws IOException {
+    public QuanLySanPham() throws Exception {
         quanLySanPhamList = fileSanPhamcsv.readFileSanPham(sanPhamList);
     }
 
