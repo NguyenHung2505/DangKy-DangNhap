@@ -4,12 +4,9 @@ import FileTong.FileSanPhamcsv;
 import FileTong.FileUser;
 import TaiKhoan.QuanLyUser;
 import TaiKhoan.User;
-
-import java.io.*;
 import java.util.Scanner;
 
 public class Menu {
-
     public static void main(String[] args) throws Exception {
 
         QuanLySanPham quanLySanPham = new QuanLySanPham();
