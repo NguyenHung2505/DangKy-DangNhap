@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d17dd205-a15e-43a2-96ee-6c8cba46b755" name="Changes" comment="" />
+    <list default="true" id="d17dd205-a15e-43a2-96ee-6c8cba46b755" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OnTap3/FileTong/SanPham.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnTap3/FileTong/SanPham.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OnTap3/FileTong/User.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnTap3/FileTong/User.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thu/thu.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -45,6 +52,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../modunl123" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Oppmodum2\OnTap3\src\TongFile" />
+      <recent name="D:\Oppmodum2\OnTap3\src" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Menu">
     <configuration name="FileSanPhamcsv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -153,5 +166,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.FileNotFoundException" package="java.io" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
